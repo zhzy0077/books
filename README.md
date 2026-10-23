@@ -28,4 +28,11 @@ typst compile --root . 数学分析八讲/main.typ 数学分析八讲/数学分�
 The `typst` builds use the fonts under `fonts/` and should be run from the
 repository root.
 
+After compiling, reuse the original JPEG/JBIG2 cover compression in both PDFs:
+
+```sh
+python -m pip install pikepdf
+python tools/optimize_pdf_covers.py
+```
+
 See `tools/README.md` for the complete processing pipeline.
