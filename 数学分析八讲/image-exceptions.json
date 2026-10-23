@@ -1,0 +1,22 @@
+{
+  "pages": {
+    "1": [
+      {
+        "asset": "assets/p001/cover.png",
+        "reason": "原书封面/封底完整图形设计，沿用参考工程封面图形处理；普通正文仍使用富文本",
+        "approved_by": "primary: user-authorized reference-project workflow",
+        "source_pdf_page": 1,
+        "source_xref": 551
+      }
+    ],
+    "181": [
+      {
+        "asset": "assets/p181/cover.png",
+        "reason": "原书封面/封底完整图形设计，沿用参考工程封面图形处理；普通正文仍使用富文本",
+        "approved_by": "primary: user-authorized reference-project workflow",
+        "source_pdf_page": 181,
+        "source_xref": 540
+      }
+    ]
+  }
+}

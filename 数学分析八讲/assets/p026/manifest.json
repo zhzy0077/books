@@ -1,0 +1,227 @@
+{
+  "source_pdf": "/home/zhizhen/Code/books/数学分析八讲/数学分析八讲.pdf",
+  "source_pdf_sha256": "2d61e209ef4da86256efb874e5f8856b376c965a50c0abaec2f9e2f8ed0857ac",
+  "source_pdf_page": 26,
+  "embedded_image": {
+    "xref": 75,
+    "native_size": [
+      2880,
+      4164
+    ],
+    "page_rect_pt": [
+      2160,
+      3123
+    ],
+    "native_pt_per_px": 0.75
+  },
+  "source_native_extraction": {
+    "file": "logs/native-p026.png",
+    "sha256": "166ced664bae2a83f628ff9e20f01224b288b882635544ef4a80d0e316e27f0d"
+  },
+  "source_scan_png": {
+    "file": "/home/zhizhen/Code/books/数学分析八讲/work/source/p026.png",
+    "size": [
+      1245,
+      1800
+    ],
+    "sha256": "761217a79256b3348da1e7c6898d536b2e07c8fed40fe07f474f6e87e5a98f35"
+  },
+  "mapping": {
+    "page_width_pt": 700,
+    "page_height_pt": 1012,
+    "x_pt_per_native_px": 0.2430555556,
+    "y_pt_per_native_px": 0.2430355427,
+    "asset_raster_scale": 1.0,
+    "note": "7 assets are 1:1 native-pixel crops of the embedded JBIG2 scan; Typst scales each to source bbox pt, no redraw"
+  },
+  "figures": [
+    {
+      "file": "assets/p026/fig1p.png",
+      "crop_bbox_native": [
+        679,
+        477,
+        1419,
+        1044
+      ],
+      "native_size": [
+        740,
+        567
+      ],
+      "target_page_pt": {
+        "x": 165.0347,
+        "y": 115.928,
+        "width": 179.8611,
+        "height": 137.8012
+      },
+      "caption_target_page_pt": {
+        "center_x": 244.2708,
+        "ink_top": 266.1239
+      },
+      "under_figure_to_caption_pt": 12.3948,
+      "sha256": "4861ea5b5fe5ed874a581db9ea378b8112cb7f67a5e67942647a5fbe17824540",
+      "source_sha256": "166ced664bae2a83f628ff9e20f01224b288b882635544ef4a80d0e316e27f0d"
+    },
+    {
+      "file": "assets/p026/fig2p.png",
+      "crop_bbox_native": [
+        1491,
+        486,
+        2229,
+        1056
+      ],
+      "native_size": [
+        738,
+        570
+      ],
+      "target_page_pt": {
+        "x": 362.3958,
+        "y": 118.1153,
+        "width": 179.375,
+        "height": 138.5303
+      },
+      "caption_target_page_pt": {
+        "center_x": 467.3958,
+        "ink_top": 269.7695
+      },
+      "under_figure_to_caption_pt": 13.124,
+      "sha256": "4161dc12608f1968085982cebcb336c5885cae80c72ecae780b97b1cd68c5e3a",
+      "source_sha256": "166ced664bae2a83f628ff9e20f01224b288b882635544ef4a80d0e316e27f0d"
+    },
+    {
+      "file": "assets/p026/fig3p.png",
+      "crop_bbox_native": [
+        667,
+        1264,
+        1404,
+        1733
+      ],
+      "native_size": [
+        737,
+        469
+      ],
+      "target_page_pt": {
+        "x": 162.1181,
+        "y": 307.1969,
+        "width": 179.1319,
+        "height": 113.9837
+      },
+      "caption_target_page_pt": {
+        "center_x": 241.1111,
+        "ink_top": 433.8184
+      },
+      "under_figure_to_caption_pt": 12.6378,
+      "sha256": "45019691d59eadb9ab24c30de51472f17999d7ed644782d1ff3fb76e4d71590a",
+      "source_sha256": "166ced664bae2a83f628ff9e20f01224b288b882635544ef4a80d0e316e27f0d"
+    },
+    {
+      "file": "assets/p026/fig4p.png",
+      "crop_bbox_native": [
+        1482,
+        1279,
+        2231,
+        1721
+      ],
+      "native_size": [
+        749,
+        442
+      ],
+      "target_page_pt": {
+        "x": 360.2083,
+        "y": 310.8425,
+        "width": 182.0486,
+        "height": 107.4217
+      },
+      "caption_target_page_pt": {
+        "center_x": 464.2361,
+        "ink_top": 437.707
+      },
+      "under_figure_to_caption_pt": 19.4428,
+      "sha256": "b025b397221ff34a15a53c6f87f9f81d2409c2bd244134a60e88ea32146a0a98",
+      "source_sha256": "166ced664bae2a83f628ff9e20f01224b288b882635544ef4a80d0e316e27f0d"
+    },
+    {
+      "file": "assets/p026/fig5p.png",
+      "crop_bbox_native": [
+        1005,
+        1905,
+        1872,
+        2409
+      ],
+      "native_size": [
+        867,
+        504
+      ],
+      "target_page_pt": {
+        "x": 244.2708,
+        "y": 462.9827,
+        "width": 210.7292,
+        "height": 122.4899
+      },
+      "caption_target_page_pt": {
+        "center_x": 347.0833,
+        "ink_top": 599.3256
+      },
+      "under_figure_to_caption_pt": 13.853,
+      "sha256": "539ab9390f7a3df21b309fb5613c237690a87b090cefcd48ec779d6873238a01",
+      "source_sha256": "166ced664bae2a83f628ff9e20f01224b288b882635544ef4a80d0e316e27f0d"
+    },
+    {
+      "file": "assets/p026/fig6.png",
+      "crop_bbox_native": [
+        643,
+        2914,
+        1395,
+        3579
+      ],
+      "native_size": [
+        752,
+        665
+      ],
+      "target_page_pt": {
+        "x": 156.2847,
+        "y": 708.2056,
+        "width": 182.7778,
+        "height": 161.6186
+      },
+      "caption_target_page_pt": {
+        "center_x": 232.8472,
+        "ink_top": 889.7531
+      },
+      "under_figure_to_caption_pt": 19.9289,
+      "sha256": "0c85030f8593624e72f9c2b517be498a8065f96a7cd90dcbb5f25af49d20b4ed",
+      "source_sha256": "166ced664bae2a83f628ff9e20f01224b288b882635544ef4a80d0e316e27f0d"
+    },
+    {
+      "file": "assets/p026/fig7.png",
+      "crop_bbox_native": [
+        1489,
+        2611,
+        2192,
+        3597
+      ],
+      "native_size": [
+        703,
+        986
+      ],
+      "target_page_pt": {
+        "x": 361.9097,
+        "y": 634.5658,
+        "width": 170.8681,
+        "height": 239.633
+      },
+      "caption_target_page_pt": {
+        "center_x": 456.7014,
+        "ink_top": 894.6138
+      },
+      "under_figure_to_caption_pt": 20.415,
+      "sha256": "113f498f47672ae2f06e5151877d5282a55212a7e08724eb78bb82e0dbb9d365",
+      "source_sha256": "166ced664bae2a83f628ff9e20f01224b288b882635544ef4a80d0e316e27f0d"
+    }
+  ],
+  "caption_rendering": {
+    "font": "body-font",
+    "size_pt": 13.5,
+    "caption_lift_pt": 0.45,
+    "text": "图 + 0.75em + figure number"
+  }
+}
