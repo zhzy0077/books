@@ -1,6 +1,7 @@
 #import "../theme.typ": *
 
 // 第 137 页 (和声小迷宫 对话)
+#place(top + left, hide(heading(level: 1, outlined: true)[和声小迷宫]))
 
 乌龟和阿基里斯在游乐场玩了一天。他们先买了一对棉花糖，然后决定去乘“大风车”玩。
 

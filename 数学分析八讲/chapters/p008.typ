@@ -1,3 +1,4 @@
+#place(top + left, hide(heading(level: 1, outlined: true)[目录]))
 #import "../theme.typ": *
 
 #tocPage(

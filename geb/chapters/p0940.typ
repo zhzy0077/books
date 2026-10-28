@@ -1,8 +1,10 @@
 #import "../theme.typ": *
 
+#place(top + left, hide(heading(level: 1, outlined: true)[第二十章　怪圈，或缠结的层次结构]))
 #marginnote[684]#text(size: 22pt, weight: "bold")[第二十章　怪圈，或]
 #text(size: 22pt, weight: "bold")[缠结的层次结构]
 
+#place(top + left, hide(heading(level: 2, outlined: true)[机器能具有创造性吗？]))
 #text(size: 16.5pt, weight: "bold")[机器能具有创造性吗？]
 
 在第十八章，我描述过阿瑟·塞缪尔的精彩的跳棋程序，它可以击败它的设计者。据此，听一听塞缪尔自己关于"计算机与创造性"问题的感想还是很有趣的。下面引文摘自塞缪尔写于 1960 年的一篇反驳维纳的文章。

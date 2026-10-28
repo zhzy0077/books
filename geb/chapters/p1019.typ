@@ -1,6 +1,6 @@
 #import "../theme.typ": *
 
-== #marginnote[743] 注 释
+= #marginnote[743] 注 释
 
 === #hei[导言：一首音乐—逻辑的奉献]
 

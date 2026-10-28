@@ -1,3 +1,4 @@
+#place(top + left, hide(heading(level: 1, outlined: true)[扉页]))
 #import "../theme.typ": *
 
 #titlePage(

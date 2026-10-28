@@ -1,6 +1,7 @@
 #import "../theme.typ": *
 
 // 扉页 (Title Page)
+#place(top + left, hide(heading(level: 1, outlined: true)[扉页]))
 
 #v(1fr)
 

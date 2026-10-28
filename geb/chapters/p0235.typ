@@ -4,7 +4,7 @@
 
 “交织的递归”之所在。
 
-#align(center)[#heading(level: 2)[#text(size: 16.5pt)[音程增值的卡农]]]
+#align(center)[#heading(level: 1)[#text(size: 16.5pt)[音程增值的卡农]]]
 
 #block(inset: (left: 2em))[阿基里斯和乌龟刚刚在城里最好的中餐馆吃过一顿美味的中餐。]
 

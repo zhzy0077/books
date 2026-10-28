@@ -7,6 +7,7 @@
 #v(12pt)
 
 #align(center)[
+  #place(top + left, hide(heading(level: 1, outlined: true)[螃蟹卡农]))
   #text(size: 15pt, weight: "bold")[螃#h(1em)蟹#h(1em)卡#h(1em)农]
 ]
 

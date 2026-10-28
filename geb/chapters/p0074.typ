@@ -15,6 +15,7 @@
 #v(18pt)
 
 #align(center)[
+  #place(top + left, hide(heading(level: 1, outlined: true)[三部创意曲]))
   #text(size: 15pt, weight: "bold")[三#h(1em)部#h(1em)创#h(1em)意#h(1em)曲]
 ]
 

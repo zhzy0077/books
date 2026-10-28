@@ -1,5 +1,9 @@
+// 自动生成的书籍主入口文件
 #import "theme.typ": *
 #show: theme
+
+#let bookmark(level, title) = place(top + left, hide(heading(level: level, outlined: true)[#title]))
+
 #metadata(1)<source-page>
 #include "chapters/p001.typ"
 #metadata(2)<source-page>
@@ -7,14 +11,17 @@
 #metadata(3)<source-page>
 #include "chapters/p003.typ"
 #metadata(4)<source-page>
+#bookmark(1, "出版说明")
 #include "chapters/p004.typ"
 #metadata(5)<source-page>
 #include "chapters/p005.typ"
 #metadata(6)<source-page>
+#bookmark(1, "致中文版读者")
 #include "chapters/p006.typ"
 #metadata(7)<source-page>
 #include "chapters/p007.typ"
 #metadata(8)<source-page>
+#bookmark(1, "第5 版前言")
 #include "chapters/p008.typ"
 #metadata(9)<source-page>
 #include "chapters/p009.typ"
@@ -27,10 +34,12 @@
 #metadata(13)<source-page>
 #include "chapters/p013.typ"
 #metadata(14)<source-page>
+#bookmark(1, "矩阵字母表")
 #include "chapters/p014.typ"
 #metadata(15)<source-page>
 #include "chapters/p015.typ"
 #metadata(16)<source-page>
+#bookmark(1, "目录")
 #include "chapters/p016.typ"
 #metadata(17)<source-page>
 #include "chapters/p017.typ"
@@ -39,8 +48,10 @@
 #metadata(19)<source-page>
 #include "chapters/p019.typ"
 #metadata(20)<source-page>
+#bookmark(1, "第1章 向量引论")
 #include "chapters/p020.typ"
 #metadata(21)<source-page>
+#bookmark(2, "1.1 向量与线性组合")
 #include "chapters/p021.typ"
 #metadata(22)<source-page>
 #include "chapters/p022.typ"
@@ -61,6 +72,7 @@
 #metadata(30)<source-page>
 #include "chapters/p030.typ"
 #metadata(31)<source-page>
+#bookmark(2, "1.2 长度与点积")
 #include "chapters/p031.typ"
 #metadata(32)<source-page>
 #include "chapters/p032.typ"
@@ -85,6 +97,7 @@
 #metadata(42)<source-page>
 #include "chapters/p042.typ"
 #metadata(43)<source-page>
+#bookmark(2, "1.3 矩阵")
 #include "chapters/p043.typ"
 #metadata(44)<source-page>
 #include "chapters/p044.typ"
@@ -105,6 +118,8 @@
 #metadata(52)<source-page>
 #include "chapters/p052.typ"
 #metadata(53)<source-page>
+#bookmark(1, "第2章 线性方程组的求解")
+#bookmark(2, "2.1 向量与线性方程组")
 #include "chapters/p053.typ"
 #metadata(54)<source-page>
 #include "chapters/p054.typ"
@@ -135,6 +150,7 @@
 #metadata(67)<source-page>
 #include "chapters/p067.typ"
 #metadata(68)<source-page>
+#bookmark(2, "2.2 高斯消元法")
 #include "chapters/p068.typ"
 #metadata(69)<source-page>
 #include "chapters/p069.typ"
@@ -159,6 +175,7 @@
 #metadata(79)<source-page>
 #include "chapters/p079.typ"
 #metadata(80)<source-page>
+#bookmark(2, "2.3 利用矩阵进行消元")
 #include "chapters/p080.typ"
 #metadata(81)<source-page>
 #include "chapters/p081.typ"
@@ -185,6 +202,7 @@
 #metadata(92)<source-page>
 #include "chapters/p092.typ"
 #metadata(93)<source-page>
+#bookmark(2, "2.4 矩阵运算的规则")
 #include "chapters/p093.typ"
 #metadata(94)<source-page>
 #include "chapters/p094.typ"
@@ -213,6 +231,7 @@
 #metadata(106)<source-page>
 #include "chapters/p106.typ"
 #metadata(107)<source-page>
+#bookmark(2, "2.5 逆矩阵")
 #include "chapters/p107.typ"
 #metadata(108)<source-page>
 #include "chapters/p108.typ"
@@ -245,6 +264,7 @@
 #metadata(122)<source-page>
 #include "chapters/p122.typ"
 #metadata(123)<source-page>
+#bookmark(2, "2.6 消元＝分解： A=LU")
 #include "chapters/p123.typ"
 #metadata(124)<source-page>
 #include "chapters/p124.typ"
@@ -269,6 +289,7 @@
 #metadata(134)<source-page>
 #include "chapters/p134.typ"
 #metadata(135)<source-page>
+#bookmark(2, "2.7 转置与置换")
 #include "chapters/p135.typ"
 #metadata(136)<source-page>
 #include "chapters/p136.typ"
@@ -299,6 +320,8 @@
 #metadata(149)<source-page>
 #include "chapters/p149.typ"
 #metadata(150)<source-page>
+#bookmark(1, "第3章 向量空间与子空间")
+#bookmark(2, "3.1向量空间")
 #include "chapters/p150.typ"
 #metadata(151)<source-page>
 #include "chapters/p151.typ"
@@ -321,6 +344,7 @@
 #metadata(160)<source-page>
 #include "chapters/p160.typ"
 #metadata(161)<source-page>
+#bookmark(2, "3.2 A 的零空间：求解Ax＝ 0 与Rx＝ 0")
 #include "chapters/p161.typ"
 #metadata(162)<source-page>
 #include "chapters/p162.typ"
@@ -351,6 +375,7 @@
 #metadata(175)<source-page>
 #include "chapters/p175.typ"
 #metadata(176)<source-page>
+#bookmark(2, "3.3 Ax＝ b 的全解")
 #include "chapters/p176.typ"
 #metadata(177)<source-page>
 #include "chapters/p177.typ"
@@ -379,6 +404,7 @@
 #metadata(189)<source-page>
 #include "chapters/p189.typ"
 #metadata(190)<source-page>
+#bookmark(2, "3.4 线性无关、基与维数")
 #include "chapters/p190.typ"
 #metadata(191)<source-page>
 #include "chapters/p191.typ"
@@ -411,6 +437,7 @@
 #metadata(205)<source-page>
 #include "chapters/p205.typ"
 #metadata(206)<source-page>
+#bookmark(2, "3.5 四个子空间的维数")
 #include "chapters/p206.typ"
 #metadata(207)<source-page>
 #include "chapters/p207.typ"
@@ -437,6 +464,8 @@
 #metadata(218)<source-page>
 #include "chapters/p218.typ"
 #metadata(219)<source-page>
+#bookmark(1, "第4章 正交性")
+#bookmark(2, "4.1 四个子空间的正交性")
 #include "chapters/p219.typ"
 #metadata(220)<source-page>
 #include "chapters/p220.typ"
@@ -459,6 +488,7 @@
 #metadata(229)<source-page>
 #include "chapters/p229.typ"
 #metadata(230)<source-page>
+#bookmark(2, "4.2 投影")
 #include "chapters/p230.typ"
 #metadata(231)<source-page>
 #include "chapters/p231.typ"
@@ -485,6 +515,7 @@
 #metadata(242)<source-page>
 #include "chapters/p242.typ"
 #metadata(243)<source-page>
+#bookmark(2, "4.3 最小二乘估计")
 #include "chapters/p243.typ"
 #metadata(244)<source-page>
 #include "chapters/p244.typ"
@@ -513,6 +544,7 @@
 #metadata(256)<source-page>
 #include "chapters/p256.typ"
 #metadata(257)<source-page>
+#bookmark(2, "4.4 标准正交基与格拉姆—施密特方法")
 #include "chapters/p257.typ"
 #metadata(258)<source-page>
 #include "chapters/p258.typ"
@@ -543,6 +575,8 @@
 #metadata(271)<source-page>
 #include "chapters/p271.typ"
 #metadata(272)<source-page>
+#bookmark(1, "第5章 行列式")
+#bookmark(2, "5.1 行列式的性质")
 #include "chapters/p272.typ"
 #metadata(273)<source-page>
 #include "chapters/p273.typ"
@@ -569,6 +603,7 @@
 #metadata(284)<source-page>
 #include "chapters/p284.typ"
 #metadata(285)<source-page>
+#bookmark(2, "5.2 排列与代数余子式")
 #include "chapters/p285.typ"
 #metadata(286)<source-page>
 #include "chapters/p286.typ"
@@ -629,6 +664,8 @@
 #metadata(314)<source-page>
 #include "chapters/p314.typ"
 #metadata(315)<source-page>
+#bookmark(1, "第6章 特征值与特征向量")
+#bookmark(2, "6.1 特征值简介")
 #include "chapters/p315.typ"
 #metadata(316)<source-page>
 #include "chapters/p316.typ"
@@ -663,6 +700,7 @@
 #metadata(331)<source-page>
 #include "chapters/p331.typ"
 #metadata(332)<source-page>
+#bookmark(2, "6.2' 矩阵对角化")
 #include "chapters/p332.typ"
 #metadata(333)<source-page>
 #include "chapters/p333.typ"
@@ -695,6 +733,7 @@
 #metadata(347)<source-page>
 #include "chapters/p347.typ"
 #metadata(348)<source-page>
+#bookmark(2, "6.3 微分方程组")
 #include "chapters/p348.typ"
 #metadata(349)<source-page>
 #include "chapters/p349.typ"
@@ -737,6 +776,7 @@
 #metadata(368)<source-page>
 #include "chapters/p368.typ"
 #metadata(369)<source-page>
+#bookmark(2, "6.4 对称矩阵")
 #include "chapters/p369.typ"
 #metadata(370)<source-page>
 #include "chapters/p370.typ"
@@ -763,6 +803,7 @@
 #metadata(381)<source-page>
 #include "chapters/p381.typ"
 #metadata(382)<source-page>
+#bookmark(2, "6.5 正定矩阵")
 #include "chapters/p382.typ"
 #metadata(383)<source-page>
 #include "chapters/p383.typ"
@@ -793,6 +834,8 @@
 #metadata(396)<source-page>
 #include "chapters/p396.typ"
 #metadata(397)<source-page>
+#bookmark(1, "第7章 奇异值分解")
+#bookmark(2, "7.1 基于线性代数的图像处理")
 #include "chapters/p397.typ"
 #metadata(398)<source-page>
 #include "chapters/p398.typ"
@@ -809,6 +852,7 @@
 #metadata(404)<source-page>
 #include "chapters/p404.typ"
 #metadata(405)<source-page>
+#bookmark(2, "7.2 奇异值分解的基与矩阵")
 #include "chapters/p405.typ"
 #metadata(406)<source-page>
 #include "chapters/p406.typ"
@@ -833,6 +877,7 @@
 #metadata(416)<source-page>
 #include "chapters/p416.typ"
 #metadata(417)<source-page>
+#bookmark(2, "7.3 主成分分析")
 #include "chapters/p417.typ"
 #metadata(418)<source-page>
 #include "chapters/p418.typ"
@@ -855,6 +900,7 @@
 #metadata(427)<source-page>
 #include "chapters/p427.typ"
 #metadata(428)<source-page>
+#bookmark(2, "7.4 奇异值分解的几何背景")
 #include "chapters/p428.typ"
 #metadata(429)<source-page>
 #include "chapters/p429.typ"
@@ -875,6 +921,8 @@
 #metadata(437)<source-page>
 #include "chapters/p437.typ"
 #metadata(438)<source-page>
+#bookmark(1, "第8章 线性变换")
+#bookmark(2, "8.1 线性变换的思想")
 #include "chapters/p438.typ"
 #metadata(439)<source-page>
 #include "chapters/p439.typ"
@@ -895,6 +943,7 @@
 #metadata(447)<source-page>
 #include "chapters/p447.typ"
 #metadata(448)<source-page>
+#bookmark(2, "8.2 线性变换的矩阵")
 #include "chapters/p448.typ"
 #metadata(449)<source-page>
 #include "chapters/p449.typ"
@@ -917,6 +966,7 @@
 #metadata(458)<source-page>
 #include "chapters/p458.typ"
 #metadata(459)<source-page>
+#bookmark(2, "8.3 搜索一组好基")
 #include "chapters/p459.typ"
 #metadata(460)<source-page>
 #include "chapters/p460.typ"
@@ -937,8 +987,10 @@
 #metadata(468)<source-page>
 #include "chapters/p468.typ"
 #metadata(469)<source-page>
+#bookmark(1, "第9章 复向量与复矩阵")
 #include "chapters/p469.typ"
 #metadata(470)<source-page>
+#bookmark(2, "9.1 复数")
 #include "chapters/p470.typ"
 #metadata(471)<source-page>
 #include "chapters/p471.typ"
@@ -955,6 +1007,7 @@
 #metadata(477)<source-page>
 #include "chapters/p477.typ"
 #metadata(478)<source-page>
+#bookmark(2, "9.2 埃尔米特矩阵和酉矩阵")
 #include "chapters/p478.typ"
 #metadata(479)<source-page>
 #include "chapters/p479.typ"
@@ -971,6 +1024,7 @@
 #metadata(485)<source-page>
 #include "chapters/p485.typ"
 #metadata(486)<source-page>
+#bookmark(2, "9.3 快速傅里叶变换")
 #include "chapters/p486.typ"
 #metadata(487)<source-page>
 #include "chapters/p487.typ"
@@ -987,6 +1041,8 @@
 #metadata(493)<source-page>
 #include "chapters/p493.typ"
 #metadata(494)<source-page>
+#bookmark(1, "第10章 线性代数的应用")
+#bookmark(2, "10.1 图和网络")
 #include "chapters/p494.typ"
 #metadata(495)<source-page>
 #include "chapters/p495.typ"
@@ -1005,6 +1061,7 @@
 #metadata(502)<source-page>
 #include "chapters/p502.typ"
 #metadata(503)<source-page>
+#bookmark(2, "10.2 工程学中的矩阵")
 #include "chapters/p503.typ"
 #metadata(504)<source-page>
 #include "chapters/p504.typ"
@@ -1031,6 +1088,7 @@
 #metadata(515)<source-page>
 #include "chapters/p515.typ"
 #metadata(516)<source-page>
+#bookmark(2, "10.3 马尔可夫矩阵、人口和经济")
 #include "chapters/p516.typ"
 #metadata(517)<source-page>
 #include "chapters/p517.typ"
@@ -1065,6 +1123,7 @@
 #metadata(532)<source-page>
 #include "chapters/p532.typ"
 #metadata(533)<source-page>
+#bookmark(2, "10.5 傅里叶级数：用线性代数研究函数")
 #include "chapters/p533.typ"
 #metadata(534)<source-page>
 #include "chapters/p534.typ"
@@ -1079,6 +1138,7 @@
 #metadata(539)<source-page>
 #include "chapters/p539.typ"
 #metadata(540)<source-page>
+#bookmark(2, "10.6 计算机图形学")
 #include "chapters/p540.typ"
 #metadata(541)<source-page>
 #include "chapters/p541.typ"
@@ -1091,6 +1151,7 @@
 #metadata(545)<source-page>
 #include "chapters/p545.typ"
 #metadata(546)<source-page>
+#bookmark(2, "10.7 密码学中的线性代数")
 #include "chapters/p546.typ"
 #metadata(547)<source-page>
 #include "chapters/p547.typ"
@@ -1105,6 +1166,8 @@
 #metadata(552)<source-page>
 #include "chapters/p552.typ"
 #metadata(553)<source-page>
+#bookmark(1, "第11章 数值线性代数")
+#bookmark(2, "11.1 高斯消元法的应用")
 #include "chapters/p553.typ"
 #metadata(554)<source-page>
 #include "chapters/p554.typ"
@@ -1129,6 +1192,7 @@
 #metadata(564)<source-page>
 #include "chapters/p564.typ"
 #metadata(565)<source-page>
+#bookmark(2, "11.2 范数与条件数")
 #include "chapters/p565.typ"
 #metadata(566)<source-page>
 #include "chapters/p566.typ"
@@ -1143,6 +1207,7 @@
 #metadata(571)<source-page>
 #include "chapters/p571.typ"
 #metadata(572)<source-page>
+#bookmark(2, "11.3 迭代法与预条件子")
 #include "chapters/p572.typ"
 #metadata(573)<source-page>
 #include "chapters/p573.typ"
@@ -1167,6 +1232,8 @@
 #metadata(583)<source-page>
 #include "chapters/p583.typ"
 #metadata(584)<source-page>
+#bookmark(1, "第12章 概率统计中的线性代数")
+#bookmark(2, "12.1 均值、方差与概率")
 #include "chapters/p584.typ"
 #metadata(585)<source-page>
 #include "chapters/p585.typ"
@@ -1193,6 +1260,7 @@
 #metadata(596)<source-page>
 #include "chapters/p596.typ"
 #metadata(597)<source-page>
+#bookmark(2, "12.2 协方差矩阵与联合概率")
 #include "chapters/p597.typ"
 #metadata(598)<source-page>
 #include "chapters/p598.typ"
@@ -1213,6 +1281,7 @@
 #metadata(606)<source-page>
 #include "chapters/p606.typ"
 #metadata(607)<source-page>
+#bookmark(2, "12.3 多维高斯分布与加权最小二乘法")
 #include "chapters/p607.typ"
 #metadata(608)<source-page>
 #include "chapters/p608.typ"
@@ -1231,14 +1300,17 @@
 #metadata(615)<source-page>
 #include "chapters/p615.typ"
 #metadata(616)<source-page>
+#bookmark(1, "附录1 矩阵分解")
 #include "chapters/p616.typ"
 #metadata(617)<source-page>
 #include "chapters/p617.typ"
 #metadata(618)<source-page>
+#bookmark(1, "附录2 线性代数概览")
 #include "chapters/p618.typ"
 #metadata(619)<source-page>
 #include "chapters/p619.typ"
 #metadata(620)<source-page>
+#bookmark(1, "索引")
 #include "chapters/p620.typ"
 #metadata(621)<source-page>
 #include "chapters/p621.typ"

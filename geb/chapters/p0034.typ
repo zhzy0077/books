@@ -1,6 +1,7 @@
 #import "../theme.typ": *
 
 // 第 34 页 (目录 第 1 页)
+#place(top + left, hide(heading(level: 1, outlined: true)[目　录]))
 
 #v(16pt)
 

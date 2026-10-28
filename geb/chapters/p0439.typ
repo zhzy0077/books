@@ -4,7 +4,7 @@
 
 #par(first-line-indent: 0em)[子,或一个原子核、一个中子、一个夸克?自我意识是一种旁效现象吗?为了理解心智,我们是否一定要深入到神经细胞的层次?]
 
-#align(center)[#heading(level: 2)[#text(size: 16.5pt)[#hei[… 蚂蚁赋格]]]]
+#align(center)[#heading(level: 1)[#text(size: 16.5pt)[#hei[… 蚂蚁赋格]]]]
 
 #block(inset: (left: 2em))[(…然后,那首赋格曲的四个声部一个接一个地插进来。)]
 

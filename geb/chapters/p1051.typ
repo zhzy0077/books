@@ -14,7 +14,7 @@
 
 #hei[奥伊斯特拉赫，大卫][Oistrakh, David],162
 
-= B
+== B
 
 #hei[巴比奇，查尔斯][Babbage, Charles],24-26,598,601,726-42
 

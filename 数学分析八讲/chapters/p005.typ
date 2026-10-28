@@ -1,3 +1,4 @@
+#place(top + left, hide(heading(level: 1, outlined: true)[前言]))
 #import "../theme.typ": *
 
 #prefaceEditionTitle3("3", "版前言")

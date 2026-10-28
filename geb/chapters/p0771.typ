@@ -1,5 +1,6 @@
 #import "../theme.typ": *
 
+#place(top + left, hide(heading(level: 1, outlined: true)[第十七章　丘奇、图灵、塔斯基及别的人]))
 #text(size: 22pt)[
   #align(center)[
     #hei[第十七章　丘奇、图灵、\

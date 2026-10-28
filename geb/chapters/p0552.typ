@@ -8,7 +8,7 @@
 
 #v(12pt)
 
-#align(center)[#heading(level: 2)[#text(size: 16.5pt)[咏#h(1em)叹#h(1em)调#h(1em)及#h(1em)其#h(1em)种#h(1em)种#h(1em)变#h(1em)奏]]]
+#align(center)[#heading(level: 1)[#text(size: 16.5pt)[咏#h(1em)叹#h(1em)调#h(1em)及#h(1em)其#h(1em)种#h(1em)种#h(1em)变#h(1em)奏]]]
 
 #v(10pt)
 

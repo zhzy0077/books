@@ -221,6 +221,7 @@
 // —— 标题 ——
 // 章首页: 第一讲/第二讲 + 章名 (章名内含字间空白), 居中; 下方楷体导语含大字段首字.
 #let chapterOpening(no, title, intro) = {
+  place(top + left, hide(heading(level: 1, outlined: true)[#no #title]))
   v(61.8pt)
   // 源页标题: 前三个字节距 28.1pt, 章名每字节距 53.4pt.
   let title-spaced = title.split(" ").join(h(1.14em))
@@ -247,6 +248,7 @@
 
 // 节标题: 黑体, 源页 18pt 字面.
 #let sec(title) = block(above: 12pt, below: 17.2pt, width: 100%)[
+  #place(top + left, hide(heading(level: 2, outlined: true)[#title]))
   #set par(first-line-indent: 0em)
   #text(font: hei-font, size: 18pt)[#title]
 ]

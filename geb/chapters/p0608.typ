@@ -8,6 +8,7 @@
 
 有趣的是，TNT 是如此有力，以致于不仅能体现全部原始递归谓词，而且能体现全部一般递归谓词。我们将不证明这些事实，因为这对我们的目标说来是没有必要的。我们的目标是说明 TNT 是不完全的。如果 TNT 不能体现某些原始或一般递归谓词，那这样的不完全就太“没意思”了。—— 因此我们应该使它能做到这一点。然后，再说明它具有某种有趣的不完全性。
 
+#place(top + left, hide(heading(level: 1, outlined: true)[G 弦上的咏叹调]))
 #par(first-line-indent: 0em)[#align(center)[#marginnote[431]#text(size: 16.5pt)[G 弦上的咏叹调]]]
 
 #par(first-line-indent: 0em)[#align(center)[#em[乌龟和阿基里斯刚刚参观完一家麦片厂。]]]

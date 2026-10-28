@@ -1,3 +1,4 @@
+#place(top + left, hide(heading(level: 1, outlined: true)[译后记]))
 #import "../theme.typ": *
 
 #afterwordOpening[齐民友]
