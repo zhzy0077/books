@@ -24,14 +24,16 @@ def get_pdf_page_count(pdf_path):
 
 def check_single_page(book_dir, page_num):
     book_path = Path(book_dir).resolve()
-    chapter_file = book_path / f'chapters/p{page_num:03d}.typ'
+    c4 = book_path / f'chapters/p{page_num:04d}.typ'
+    c3 = book_path / f'chapters/p{page_num:03d}.typ'
+    chapter_file = c4 if c4.exists() else c3
     if not chapter_file.exists():
         return page_num, False, "File not found"
         
-    temp_typ = book_path / f'_tmp_chk_p{page_num:03d}.typ'
-    temp_pdf = book_path / f'_tmp_chk_p{page_num:03d}.pdf'
+    temp_typ = book_path / f'_tmp_chk_p{page_num:04d}.typ'
+    temp_pdf = book_path / f'_tmp_chk_p{page_num:04d}.pdf'
     
-    wrapper = f'#import "theme.typ": *\n#show: theme\n#metadata({page_num})<source-page>\n#include "chapters/p{page_num:03d}.typ"\n'
+    wrapper = f'#import "theme.typ": *\n#show: theme\n#metadata({page_num})<source-page>\n#include "{chapter_file.relative_to(book_path)}"\n'
     temp_typ.write_text(wrapper, encoding='utf-8')
     try:
         res = subprocess.run(

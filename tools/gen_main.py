@@ -37,7 +37,8 @@ def generate_main(book_dir):
         for n in pages:
             # 注入源页身份 marker，供 theme footer 用 query(<source-page>) 反查当前页
             m.write(f'#metadata({n})<source-page>\n')
-            m.write(f'#include "chapters/p{n:03d}.typ"\n')
+            target_file = f'chapters/p{n:04d}.typ' if (chapters_dir / f'p{n:04d}.typ').exists() else f'chapters/p{n:03d}.typ'
+            m.write(f'#include "{target_file}"\n')
             
     print(f"[OK] Generated {main_file} successfully.")
 

@@ -1,10 +1,11 @@
 # Books
 
 This repository contains Typst source projects, reusable book-processing tools,
-project fonts, source PDFs, and final PDF outputs for two books.
+project fonts, source PDFs, and final PDF outputs for three books.
 
 ## Projects
 
+- `geb/` - 哥德尔、埃舍尔、巴赫：集异璧之大成 (Gödel, Escher, Bach: an Eternal Golden Braid)
 - `linear-algebra-5th/` - Linear Algebra and Its Applications, fifth edition
 - `数学分析八讲/` - Mathematical Analysis in Eight Lectures
 - `tools/` - PDF preparation, migration, compilation, comparison, and audit tools
@@ -12,6 +13,12 @@ project fonts, source PDFs, and final PDF outputs for two books.
 
 The repository does not include virtual environments, temporary work logs,
 model sessions, intermediate backups, or generated review caches.
+
+## GEB Build
+
+```sh
+typst compile --root . geb/main.typ geb/哥德尔埃舍尔巴赫-typst.pdf
+```
 
 ## Linear Algebra Build
 
